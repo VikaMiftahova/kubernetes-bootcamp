@@ -26,9 +26,11 @@ kubectl apply -f service.yaml -n bootcamp
 ```
 ### :runner: 5) Check statuses
 ```
+kubectl get deployment -n bootcamp
 kubectl get pods -n bootcamp
 kubectl get svc -n bootcamp
 kubectl describe pod <pod-name> -n bootcamp
 kubectl logs -l app=<label-if-present> -n bootcamp
 ```
+
 
