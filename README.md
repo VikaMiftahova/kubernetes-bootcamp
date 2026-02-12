@@ -1,4 +1,4 @@
-# Run kubernetes-bootcamp on Minikube
+# 💙 Run kubernetes-bootcamp on Minikube
 ### Prerequisites 
   **kubectl \
   minikube**
@@ -31,3 +31,4 @@ kubectl get svc -n bootcamp
 kubectl describe pod <pod-name> -n bootcamp
 kubectl logs -l app=<label-if-present> -n bootcamp
 ```
+
